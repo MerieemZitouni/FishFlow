@@ -1,0 +1,171 @@
+.Alertes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 300px;
+}
+.title{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #023047;
+
+
+}
+
+.header{
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.innerheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.text1{
+   
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Secondary */
+color: #274C77;
+
+
+}
+
+
+.ParameterCard{
+ 
+height: 185px;
+
+background: #FFFFFF;
+border: 1px solid #D3CBFB;
+box-shadow: 0px 4px 8px 5px rgba(2, 48, 71, 0.1);
+border-radius: 50px;
+
+display: flex;
+flex-direction: column;
+padding-left:40px;
+padding-top: 20px;
+padding-right:40px;
+cursor: pointer;
+
+
+}
+
+
+.historyButton{
+
+    height: 75px;
+    
+    
+    background: #FFFFFF;
+    border: 1px solid #D3CBFB;
+    box-shadow: 0px 4px 8px rgba(2, 48, 71, 0.25);
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    }
+
+
+
+
+.title2{
+    /* Summary of the day */
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #023047;
+
+
+}
+
+.graphicContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gridCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px 30px;
+}
+
+.parameterName{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+
+color: #023047;
+
+
+}
+
+
+.valueRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:80px
+}
+
+.valueNumber{
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+margin:0px;
+
+color: #04103B;
+
+
+}
+
+
+
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.graphicCol1{
+    display: flex;
+    flex-direction: column;
+}

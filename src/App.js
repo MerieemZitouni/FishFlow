@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import styles from './App.module.css';
 import Sidebar from './Components/Sidebar/Sidebar';
 import List from './Components/List';
@@ -24,6 +25,27 @@ const App = () => {
 
       </div>
     </div>
+=======
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Sidebar from './Components/Sidebar/Sidebar';
+import Alertes from './Pages/Alertes/Alertes';
+import styles from './App.module.css';
+
+const App = () => {
+  return (
+    <Router>
+      <div className={styles.App}>
+        <Sidebar />
+        <div className={styles.content}>
+          <Routes>
+            {/* <Route path="/" element={<Dashboard />} /> */}
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+            <Route path="/alertes" element={<Alertes />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
+>>>>>>> c2ce4ea82ad8db0caf6c47eb6b7685aaefb5c1aa
   );
 };
 
