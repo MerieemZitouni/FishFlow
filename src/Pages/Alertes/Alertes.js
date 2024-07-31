@@ -99,17 +99,16 @@ const Alertes = ({ nbAlertes }) => {
              iconPath='/assets/phIcon.svg' 
               parameterName='pH' 
              />
-             
-            </div>
 
-            <div className={styles.secondRow}>
-                
-            <div className={styles.historyButton} >{nbAlertes}</div>
+
+            <div className={styles.historyButton} >50</div>
             <div className={styles.historyButton}>
             <img src="assets/historyAlertButton.svg" alt="history" />
             </div>
-
+             
             </div>
+
+           
         </div>
 
            
