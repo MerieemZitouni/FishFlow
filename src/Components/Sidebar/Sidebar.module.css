@@ -1,0 +1,56 @@
+.sidebar {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 252px;
+
+
+background: #FFFFFF;
+border: 0px solid #16558F;
+box-shadow: inset 0px 8.25215px 8.25215px rgba(0, 0, 0, 0.25);
+transform: rotate(0.06deg);
+
+}
+
+
+.text{
+  color:black;
+  font-size: 20px;
+  font-family: 'Montserrat SemiBold';
+  margin-left: 25px;
+}
+
+.sidebarContent{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+.elementContainer{
+  width:243px;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.elementContainer:hover{
+
+background: #5CC3A4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 20px 20px 0px;
+
+}
+
+.mainButtons{
+
+}

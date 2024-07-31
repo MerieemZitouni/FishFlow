@@ -1,0 +1,76 @@
+/* src/Navbar.css */
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: #F7F7F7; /* Transparent background */
+  position: relative; /* Fixed position */
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-title {
+  color: #023047;
+  font-family: Montserrat;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-links {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+}
+
+.nav-links:hover {
+  color: #5CC3A4;
+}
+
+.nav-selector {
+  margin-left: auto;
+}
+
+.nav-select {
+  background-color: #023047;
+  color: #e8ecee;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-select:focus {
+  outline: none;
+  background-color: #023047;
+}

@@ -1,0 +1,202 @@
+/* src/List.css */
+.horizontal-list {
+    display: flex;
+    list-style-type: none; 
+    padding: 0;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .item-normal {
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    background-color: rgb(255, 255, 255); 
+    width: 293px;
+    height: 110px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+
+  }
+
+
+  .item-secondlist {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+  }
+
+  .hover-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.item-secondlist:hover .hover-text {
+    display: block;
+}
+  
+  .icon-and-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .icon {
+    margin-right: 20px; /* Adjust as needed */
+    width: 40px; /* Adjust icon size as needed */
+    height: 40px; /* Adjust icon size as needed */
+  }
+
+
+
+
+  .fishnum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Center items horizontally */
+    justify-content: left; /* Center items vertically */
+  }
+
+    .fishnumber-container {
+        display: flex;
+        flex-direction: row;
+        align-items: left; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+    }
+
+     .fishnum-image {
+            display: flex;
+            flex-direction: row;
+            align-items: right; /* Center items horizontally */
+            justify-content: space-between; /* Center items vertically */
+            padding-top: 20px;
+         } 
+  
+         .fishnumber-image {
+            display: flex;
+            align-items: end; /* Center items horizontally */
+            justify-content: space-between; /* Center items vertically */
+            padding: 20px;
+    
+         }
+  
+  .progress-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+  }
+  
+  .progress-container .CircularProgressbar {
+    width: 100px; /* Adjust the size of the progress wheel */
+    height: 100px;
+    
+    
+  }
+  
+  .system-health {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    justify-content:first baseline; /* Center items vertically */
+    margin-bottom: 20px; /* Space between icon/text and description */
+
+  }
+  .system-health span{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+  .system-health-img{
+
+    padding: 5px;
+  }
+
+  .system-health-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #C1E4D2; 
+    border-radius: 8px;
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    height: 90px;
+    width: 400px;
+
+  }
+  
+
+  .item1-title {
+    font-weight: bold; /* Bold text for the title */
+    color: #797D8C; /* Dark color for the title */
+    font-family: Montserrat;
+    font-size: 15
+
+  }
+
+.item2-title {
+    font-weight: bold; /* Bold text for the title */
+    color: #797D8C; /* Dark color for the title */
+    font-family: Montserrat;
+    font-size: 22px;
+    margin-right: 20px; 
+
+  }
+  
+  .item3-title {
+    font-weight: bold; /* Bold text for the title */
+    color: #43BE83; /* Dark color for the title */
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-right: 20px; 
+
+  }
+  
+  .item1-description {
+    color: #666; /* Lighter color for the description */
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+
+  .item3-description {
+    color: #666; /* Lighter color for the description */
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight:400;
+  }
+
+  .graph-title {
+    color: #0a0a0a; /* Lighter color for the description */
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight:400;
+    padding-left: 20px;
+}
+
+ 
