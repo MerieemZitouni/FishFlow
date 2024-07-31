@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import styles from './App.module.css';
 import Sidebar from './Components/Sidebar/Sidebar';
 import List from './Components/List';
