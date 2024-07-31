@@ -3,7 +3,7 @@ import styles from './Alertes.module.css';
 import Select from 'react-select';
 import ParameterCard from './ParameterCard';
 
-const Alertes = () => {
+const Alertes = ({ nbAlertes }) => {
 
     const optionBassin = [
         { value: '1', label: 'Bassin 1' },
@@ -56,7 +56,7 @@ const Alertes = () => {
            styles={styleSelect}
            placeholder="Bassin"
            />
-           <img src="assets/notif0.svg" alt="notif" style={{marginLeft: '100px'}} />
+           <img src="assets/notif0.svg" alt="notif" style={{marginLeft: '60px'}} />
            <h4 className={styles.text1} style={{marginLeft: '30px'}}>user user</h4>
            <img src="assets/user.svg" alt="user image" width="48.76" height="47" style={{marginLeft: '30px'}} />
 
@@ -74,7 +74,7 @@ const Alertes = () => {
 
         <div className={styles.graphicContainer}>
          
-         <div>
+         <div className={styles.graphicCol1}>
         <h3 className={styles.title2}>Summary of the day</h3>
         <div className={styles.gridCards}>
            <ParameterCard 
@@ -99,6 +99,16 @@ const Alertes = () => {
              iconPath='/assets/phIcon.svg' 
               parameterName='pH' 
              />
+             
+            </div>
+
+            <div className={styles.secondRow}>
+                
+            <div className={styles.historyButton} >{nbAlertes}</div>
+            <div className={styles.historyButton}>
+            <img src="assets/historyAlertButton.svg" alt="history" />
+            </div>
+
             </div>
         </div>
 
