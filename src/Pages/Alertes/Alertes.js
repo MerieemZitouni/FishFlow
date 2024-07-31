@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Alertes.module.css';
 import Select from 'react-select';
 import ParameterCard from './ParameterCard';
+import Sidebar from '../../Components/Sidebar/Sidebar';
 
 const Alertes = ({ nbAlertes }) => {
 
@@ -46,6 +47,8 @@ const Alertes = ({ nbAlertes }) => {
 
 
   return (
+    <div>
+      
     <div className={styles.Alertes}>
         <div className={styles.header}>
            <h2 className={styles.title}>Alerts & Notifications </h2>
@@ -115,6 +118,7 @@ const Alertes = ({ nbAlertes }) => {
         </div>
         
         
+    </div>
     </div>
   );
 };
