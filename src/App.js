@@ -18,9 +18,23 @@ const App = () => {
         {/* <Sidebar /> */}
         <div className={styles.content}>
           <Routes>
-            {/* <Route path="/" element={<Dashboard />} /> */}
-            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+            <Route path="/" element={
+               <div className={styles.App}>
+               <Sidebar />
+         
+               <div className={styles.content}>
+         
+               <div><Navbar/></div>
+               <List />
+               <Secondlist />
+               <Graphicalview />
+               <Graph />
+         
+               </div>
+             </div>
+            } />
             <Route path="/alertes" element={<Alertes />} />
+            
             <Route path="/dashboard" element={
                <div className={styles.App}>
                <Sidebar />
